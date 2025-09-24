@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   variables:
-     #AWS_DEFAULT_REGION: "ca-central-1"
-     #IMAGE_REPO_NAME: "chaos"
-     #AWS_ACCOUNT_ID: "504151741135"
+     AWS_DEFAULT_REGION: "ca-central-1"
+     IMAGE_REPO_NAME: "chaos"
+     AWS_ACCOUNT_ID: "504151741135"
 
 phases:
   install:
@@ -31,3 +31,4 @@ phases:
 artifacts:
 
     files: imagedefinitions.json
+
